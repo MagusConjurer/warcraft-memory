@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "ChaosGrom",
-    "image": "%PUBLIC_URL%/images/characters/ChoasGrom.png",
+    "image": "/images/characters/ChoasGrom.png",
     "clicked": false
   },
   {
