@@ -7,140 +7,140 @@
   },
   {
     "id": 2,
-    "name": "",
-    "image": "",
+    "name": "Demoness",
+    "image": "/images/characters/Demoness.png",
     "clicked": false
   },
   {
     "id": 3,
-    "name": "",
-    "image": "",
+    "name": "DeathKnightArthas",
+    "image": "/images/characters/DKArthas.png",
     "clicked": false
   },
   {
     "id": 4,
-    "name": "",
-    "image": "",
+    "name": "Dragon",
+    "image": "/images/characters/Dragon.png",
     "clicked": false
   },
   {
     "id": 5,
-    "name": "",
-    "image": "",
+    "name": "Dryad",
+    "image": "/images/characters/Dryad.png",
     "clicked": false
   },
   {
     "id": 6,
-    "name": "",
-    "image": "",
+    "name": "ElfVillager",
+    "image": "/images/characters/ElfVillager.png",
     "clicked": false
   },
   {
     "id": 7,
-    "name": "",
-    "image": "",
+    "name": "FlyingMachine",
+    "image": "/images/characters/FlyingMachine.png",
     "clicked": false
   },
   {
     "id": 8,
-    "name": "",
-    "image": "",
+    "name": "Gul'dan",
+    "image": "/images/characters/Guldan.png",
     "clicked": false
   },
   {
     "id": 9,
-    "name": "",
-    "image": "",
+    "name": "Headhunter",
+    "image": "/images/characters/Headhunter.png",
     "clicked": false
   },
   {
     "id": 10,
-    "name": "",
-    "image": "",
+    "name": "Kael'thas",
+    "image": "/images/characters/Kael'thas.png",
     "clicked": false
   },
   {
     "id": 11,
-    "name": "",
-    "image": "",
+    "name": "KelThuzad",
+    "image": "/images/characters/KelThuzad.png",
     "clicked": false
   },
   {
     "id": 12,
-    "name": "",
-    "image": "",
+    "name": "Maiev",
+    "image": "/images/characters/Maiev.png",
     "clicked": false
   },
   {
     "id": 13,
-    "name": "",
-    "image": "",
+    "name": "Malfurion",
+    "image": "/images/characters/Malfurion.png",
     "clicked": false
   },
   {
     "id": 14,
-    "name": "",
-    "image": "",
+    "name": "Medivh",
+    "image": "/images/characters/Medivh.png",
     "clicked": false
   },
   {
     "id": 15,
-    "name": "",
-    "image": "",
+    "name": "MortarTeam",
+    "image": "/images/characters/MortarTeam.png",
     "clicked": false
   },
   {
     "id": 16,
-    "name": "",
-    "image": "",
+    "name": "Muradin",
+    "image": "/images/characters/Muradin.png",
     "clicked": false
   },
   {
     "id": 17,
-    "name": "",
-    "image": "",
+    "name": "Necromancer",
+    "image": "/images/characters/Necromancer.png",
     "clicked": false
   },
   {
     "id": 18,
-    "name": "",
-    "image": "",
+    "name": "Rexxar",
+    "image": "/images/characters/Rexxar.png",
     "clicked": false
   },
   {
     "id": 19,
-    "name": "",
-    "image": "",
+    "name": "SeaWitch",
+    "image": "/images/characters/SeaWitch.png",
     "clicked": false
   },
   {
     "id": 20,
-    "name": "",
-    "image": "",
+    "name": "Shaman",
+    "image": "/images/characters/Shaman.png",
     "clicked": false
   },
   {
     "id": 21,
-    "name": "",
-    "image": "",
+    "name": "ChenStormstout",
+    "image": "/images/characters/Stormstout.png",
     "clicked": false
   },
   {
     "id": 22,
-    "name": "",
-    "image": "",
+    "name": "Sylvanas",
+    "image": "/images/characters/Sylvanas.png",
     "clicked": false
   },
   {
     "id": 23,
-    "name": "",
-    "image": "",
+    "name": "Thrall",
+    "image": "/images/characters/Thrall.png",
     "clicked": false
   },
   {
     "id": 24,
-    "name": "",
-    "image": "",
+    "name": "IllidanMetamorphisis",
+    "image": "/images/characters/Illidan.png",
     "clicked": false
   }
 ]
