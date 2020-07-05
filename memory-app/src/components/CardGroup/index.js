@@ -1,7 +1,8 @@
 import React from "react";
 import CardGroup from "react-bootstrap/CardGroup";
-import characters from "../characters.json";
-import CharacterCard from "./CharacterCard";
+import characters from "../../characters.json";
+import CharacterCard from "../CharacterCard";
+import "./style.css"
 
 class CharacterGroup extends React.Component {
   state = {
