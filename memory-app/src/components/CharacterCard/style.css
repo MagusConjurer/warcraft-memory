@@ -1,0 +1,7 @@
+.card-group, .card {
+  display: inline;
+}
+
+.card-img {
+  width: 16%;
+}
