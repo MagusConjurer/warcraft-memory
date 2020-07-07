@@ -9,6 +9,10 @@ class CharacterGroup extends React.Component {
     characters
   }
 
+  // Callback to pass click status from card
+
+  // Function to shuffle the list of characters
+
   render() {
     return (
       <CardGroup>
