@@ -1,3 +1,5 @@
 .card-group {
-  display: inline;
+  display: inline-block;
+  padding: 1%;
+  text-align: center;
 }

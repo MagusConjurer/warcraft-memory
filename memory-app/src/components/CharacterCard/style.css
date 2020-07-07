@@ -1,7 +1,11 @@
 .card {
-  display: inline;
+  margin: 0.5vw !important;
+  display: inline-block;
+  width: 15vw;
+  height: 15vw;
+  border: 0px;
 }
 
 .card-img {
-  width: 16%;
+  width: 15vw;
 }

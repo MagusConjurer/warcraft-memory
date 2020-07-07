@@ -1,3 +1,22 @@
+.navbar-nav {
+  flex-direction: row;
+}
+
 .navbar-text {
+  display: inline-block;
   margin: 0px 5px;
+  color:#4aaaa5 !important;
+}
+
+.nav-link:link, .nav-link:visited {
+  color: #A7C8C6;
+  text-decoration: underline;
+}
+
+.nav-link:hover {
+  color: #84DFDB;
+}
+
+.nav-link:active {
+  color:#4aaaa5;
 }
