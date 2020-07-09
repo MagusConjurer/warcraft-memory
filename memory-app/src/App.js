@@ -1,16 +1,10 @@
 import React from 'react';
-import CardGroup from "./components/CardGroup";
-import MainNav from "./components/MainNav";
-import JumboHeader from "./components/JumboHeader";
+import ClickyContainer from "./components/ClickyContainer"
 import './App.css';
 
 function App() {
   return (
-    <div className="container">
-      <MainNav />
-      <JumboHeader />
-      <CardGroup />
-    </div>
+    <ClickyContainer />
   );
 }
 

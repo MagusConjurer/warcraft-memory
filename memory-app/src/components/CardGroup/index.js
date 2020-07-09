@@ -1,12 +1,17 @@
 import React from "react";
 import CardGroup from "react-bootstrap/CardGroup";
-import characters from "../../characters.json";
 import CharacterCard from "../CharacterCard";
 import "./style.css"
 
 class CharacterGroup extends React.Component {
-  state = {
-    characters
+  state ={
+    characters: this.props.characters
+  }
+
+  componentDidUpdate(prevProps) {
+    if(prevProps.characters !== this.props.characters) {
+      this.setState({characters: this.props.characters});
+    }
   }
 
   // Shuffle the cards
@@ -20,18 +25,21 @@ class CharacterGroup extends React.Component {
     return arr;
   }
 
-  // Check which card was clicked and set its clicked property to true
+  // Check which card was clicked, whether it has previously been clicked, and update from there
   handleCardClicked = event => {
     event.preventDefault();
 
     const key = parseInt(event.target.getAttribute("data-key"));
     const index = this.state.characters.findIndex(card => card.id === key);
     const newArray = this.state.characters.slice();
-    newArray[index].clicked = true;
-    this.shuffleCards(newArray);
-    this.setState({
-        characters: newArray
-      });
+
+    if(newArray[index].clicked === false) {
+      newArray[index].clicked = true;
+      this.shuffleCards(newArray);
+      this.props.updateCharacters(newArray);
+    } else {
+      // Set a status.
+    }
   }
 
   
