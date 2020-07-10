@@ -33,12 +33,12 @@ class CharacterGroup extends React.Component {
     const index = this.state.characters.findIndex(card => card.id === key);
     const newArray = this.state.characters.slice();
 
-    if(newArray[index].clicked === false) {
+    if(newArray[index].clicked === false && this.props.lost !== true) {
       newArray[index].clicked = true;
       this.shuffleCards(newArray);
       this.props.updateCharacters(newArray);
     } else {
-      // Set a status.
+      this.props.updateLoseCondition(true);
     }
   }
 
