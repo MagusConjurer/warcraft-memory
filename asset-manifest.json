@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/warcraft-memory/static/css/main.2eca71a2.chunk.css",
-    "main.js": "/warcraft-memory/static/js/main.6875b5c2.chunk.js",
-    "main.js.map": "/warcraft-memory/static/js/main.6875b5c2.chunk.js.map",
+    "main.css": "/warcraft-memory/static/css/main.6f47b153.chunk.css",
+    "main.js": "/warcraft-memory/static/js/main.764caee2.chunk.js",
+    "main.js.map": "/warcraft-memory/static/js/main.764caee2.chunk.js.map",
     "runtime-main.js": "/warcraft-memory/static/js/runtime-main.444f6507.js",
     "runtime-main.js.map": "/warcraft-memory/static/js/runtime-main.444f6507.js.map",
     "static/js/2.f49eb620.chunk.js": "/warcraft-memory/static/js/2.f49eb620.chunk.js",
     "static/js/2.f49eb620.chunk.js.map": "/warcraft-memory/static/js/2.f49eb620.chunk.js.map",
     "index.html": "/warcraft-memory/index.html",
-    "precache-manifest.2f920ad44f53887320b47d5df123fa89.js": "/warcraft-memory/precache-manifest.2f920ad44f53887320b47d5df123fa89.js",
+    "precache-manifest.69191a1a36cac3e724710a1789e01492.js": "/warcraft-memory/precache-manifest.69191a1a36cac3e724710a1789e01492.js",
     "service-worker.js": "/warcraft-memory/service-worker.js",
-    "static/css/main.2eca71a2.chunk.css.map": "/warcraft-memory/static/css/main.2eca71a2.chunk.css.map",
+    "static/css/main.6f47b153.chunk.css.map": "/warcraft-memory/static/css/main.6f47b153.chunk.css.map",
     "static/js/2.f49eb620.chunk.js.LICENSE.txt": "/warcraft-memory/static/js/2.f49eb620.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.444f6507.js",
     "static/js/2.f49eb620.chunk.js",
-    "static/css/main.2eca71a2.chunk.css",
-    "static/js/main.6875b5c2.chunk.js"
+    "static/css/main.6f47b153.chunk.css",
+    "static/js/main.764caee2.chunk.js"
   ]
 }

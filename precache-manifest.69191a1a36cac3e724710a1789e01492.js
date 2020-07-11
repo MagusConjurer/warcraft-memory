@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "27bb6644815b4bb41fef4f5a10279f94",
+    "revision": "47b0c356f780008dd312530867e15bf5",
     "url": "/warcraft-memory/index.html"
   },
   {
-    "revision": "74dc32ba493b4dc956ef",
-    "url": "/warcraft-memory/static/css/main.2eca71a2.chunk.css"
+    "revision": "60650f96efbb7146a559",
+    "url": "/warcraft-memory/static/css/main.6f47b153.chunk.css"
   },
   {
     "revision": "dcefad55d7f98f7a2842",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/warcraft-memory/static/js/2.f49eb620.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "74dc32ba493b4dc956ef",
-    "url": "/warcraft-memory/static/js/main.6875b5c2.chunk.js"
+    "revision": "60650f96efbb7146a559",
+    "url": "/warcraft-memory/static/js/main.764caee2.chunk.js"
   },
   {
     "revision": "c754cdf1e90a8cd08961",
