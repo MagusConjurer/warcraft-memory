@@ -32,30 +32,51 @@ class ClickyContainer extends React.Component {
     this.setState({
       lost: bool
     })
-    console.log("lost");
+    this.restartGame(bool);
   }
 
   updateScore() {
     var newScore = 0;
-    var newHighScore = 0;
+    const oldHigh = this.state.highScore;
+    var newHigh = 0;
     this.state.characters.forEach(function(character){
       if(character.clicked === true) {
         newScore++
       }
     })
-    if(newScore > this.state.highScore) {
-      newHighScore = newScore;
+    if(newScore > oldHigh){
+      newHigh = newScore;
+    } else {
+      newHigh = oldHigh;
     }
     this.setState({
       score: newScore,
-      highScore: newHighScore
+      highScore: newHigh
     })
+  }
+
+  restartGame = (bool) => {
+    if(bool === true) {
+      var resetArray = this.state.characters.slice();
+      resetArray.forEach(function(character){
+        if(character.clicked === true){
+          character.clicked = false;
+        }
+      })
+      setTimeout(function(){
+        this.setState({
+          characters: resetArray,
+          lost: false,
+          score: 0
+        });
+      }.bind(this),3000); 
+    }
   }
 
   render() {
     return (
       <div className="container">
-        <MainNav score={this.state.score} />
+        <MainNav score={this.state.score} highScore={this.state.highScore} />
         <JumboHeader score={this.state.score} lost={this.state.lost} />
         <CardGroup {...this.state} updateLoseCondition={this.updateLoseCondition} updateCharacters={this.updateCharacters} />
     </div>

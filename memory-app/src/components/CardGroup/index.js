@@ -38,7 +38,9 @@ class CharacterGroup extends React.Component {
       this.shuffleCards(newArray);
       this.props.updateCharacters(newArray);
     } else {
-      this.props.updateLoseCondition(true);
+      if(this.props.lost === false) {
+        this.props.updateLoseCondition(true);
+      }
     }
   }
 

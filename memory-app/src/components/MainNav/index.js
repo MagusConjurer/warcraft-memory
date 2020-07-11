@@ -9,12 +9,11 @@ class MainNav extends React.Component {
       <Navbar bg="dark" expand="lg">
         <Nav.Link href="https://magusconjurer.github.io/portfolio.html">Return to Portfolio</Nav.Link>
         <Nav className="ml-auto">
-          <Navbar.Text>Score: {this.props.score}</Navbar.Text><Navbar.Text>|</Navbar.Text><Navbar.Text>High Score: 0</Navbar.Text>
+          <Navbar.Text>Score: {this.props.score}</Navbar.Text><Navbar.Text>|</Navbar.Text><Navbar.Text>High Score: {this.props.highScore}</Navbar.Text>
         </Nav>
       </Navbar>
     )
   }
-  
 }
 
 export default MainNav;
