@@ -8,6 +8,11 @@
   color:#4aaaa5 !important;
 }
 
+.nav-link{
+  font-family: "Shadows Into Light";
+  font-size: 20px;
+}
+
 .nav-link:link, .nav-link:visited {
   color: #A7C8C6;
   text-decoration: underline;
