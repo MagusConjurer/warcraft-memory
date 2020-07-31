@@ -1,6 +1,8 @@
 # warcraft-memory
 A memory game that uses React.
 
+Try it out [here](https://magusconjurer.github.io/warcraft-memory/).
+
 ### What It Is
 
 A simple memory game where you are given a set of cards to click and then they shuffle. The goal is to click all of the cards only once. 
